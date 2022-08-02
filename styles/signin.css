@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-color: #0a0a0a;
+	font-family: 'Space Grotesk', sans-serif;
+	height: 100vh;
+}
+
+.nav-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #2e2e2e;
+	padding: 1rem 8rem;
+	height: 5rem;
+}
+
+.nav-title {
+	font-weight: 700;
+	font-size: 2rem;
+	color: #ff8a2e;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	/* margin: 128px 504px 262px 504px; */
+}
+
+.container-content {
+	/* display: flex;
+	flex-direction: column; */
+	width: 45rem;
+
+	background-color: #2e2e2e;
+	border-radius: 1rem;
+	padding: 100px 125px;
+}
+
+.header-title {
+	color: #ffffff;
+	font-size: 2rem;
+	font-weight: 700;
+	align-self: flex-start;
+	margin: 0 0 32px 0;
+}
+
+.form-title {
+	font-weight: 500;
+	font-size: 1rem;
+	color: #ffffff;
+	margin: 0 0 8px 0;
+}
+
+.form-control {
+	margin: 0 0 24px 0;
+}
+
+.form-control input {
+	border-radius: 0.5rem;
+	width: 29.375rem;
+	height: 3.5rem;
+	background-color: #0a0a0a;
+	border: 1px solid #6f6f6f;
+	padding: 1rem;
+}
+
+input[type='submit'] {
+	background-color: #ff8a2e;
+	color: #0a0a0a;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.forgot-para {
+	color: #ffffff;
+	font-weight: 400;
+	margin: 0 0 32px 0;
+}
+
+.create-link {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.create-link a {
+	text-decoration: none;
+	color: #ff8a2e;
+}
+
+@media screen and (max-width: 1728px) {
+	.container-content {
+		padding: 50px 125px;
+	}
+}
