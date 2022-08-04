@@ -1,0 +1,49 @@
+@import url('base.css');
+
+body {
+  background-color: #0a0a0a;
+}
+
+nav {
+  display: flex;
+  background: #2e2e2e;
+  justify-content: space-between;
+  border-bottom: 1px solid #6f6f6f;
+  padding: 1rem 4rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--orange);
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type='search'] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 524px;
+  height: 56px;
+  background: var(--deep-gray);
+  border-radius: 8px;
+  border: 0.5px solid #6f6f6f;
+  color: var(--pure-white);
+}
+
+input[type='search']:focus {
+  border: 1.5px solid #6f6f6f;
+  outline: none;
+}
+
+input[type='search']::placeholder {
+  padding-left: 2.1875rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--pure-white);
+  background: url('../images/search-icon.png');
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+}
