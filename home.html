@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="styles/home.css" />
-  </head>
-  <body>
-    <nav>
-      <a href="/"><h1>Pantunes</h1></a>
-      <!-- <div class="search-container">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=\, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="styles/home.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<a href="/"><h1>Pantunes</h1></a>
+				<!-- <div class="search-container">
         <img id="search-icon" src="/images/search-icon.png" alt="" /> -->
-      <input type="search" placeholder="Search" />
-      <!-- </div> -->
+				<input type="search" placeholder="Search" />
+				<!-- </div> -->
 
-      <div>
-        <!-- music icon -->
-        <svg
-          width="32"
-          height="32"
-          viewBox="0 0 32 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="32" height="32" rx="8" fill="#0A0A0A" />
-          <path
-            d="M22.75 7V11.5M25 9.25H20.5M11.5 23.125V10L16.0187 8.875M17.875 12.9062L11.5 14.5M23.5 15.9344V20.125M20.875 22.75C22.3247 22.75 23.5 21.5747 23.5 20.125C23.5 18.6753 22.3247 17.5 20.875 17.5C19.4253 17.5 18.25 18.6753 18.25 20.125C18.25 21.5747 19.4253 22.75 20.875 22.75ZM8.875 25.75C10.3247 25.75 11.5 24.5747 11.5 23.125C11.5 21.6753 10.3247 20.5 8.875 20.5C7.42525 20.5 6.25 21.6753 6.25 23.125C6.25 24.5747 7.42525 25.75 8.875 25.75Z"
-            stroke="#FF8A2E"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
+				<div class="nav-icons">
+					<div class="nav-action-icon">
+						<!-- music icon -->
+						<svg
+							width="32"
+							height="32"
+							viewBox="0 0 32 32"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<rect width="32" height="32" rx="8" fill="#0A0A0A" />
+							<path
+								d="M22.75 7V11.5M25 9.25H20.5M11.5 23.125V10L16.0187 8.875M17.875 12.9062L11.5 14.5M23.5 15.9344V20.125M20.875 22.75C22.3247 22.75 23.5 21.5747 23.5 20.125C23.5 18.6753 22.3247 17.5 20.875 17.5C19.4253 17.5 18.25 18.6753 18.25 20.125C18.25 21.5747 19.4253 22.75 20.875 22.75ZM8.875 25.75C10.3247 25.75 11.5 24.5747 11.5 23.125C11.5 21.6753 10.3247 20.5 8.875 20.5C7.42525 20.5 6.25 21.6753 6.25 23.125C6.25 24.5747 7.42525 25.75 8.875 25.75Z"
+								stroke="#FF8A2E"
+								stroke-width="3"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
 
-        <!-- notification icon -->
-        <svg
-          width="32"
-          height="32"
-          viewBox="0 0 32 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="32" height="32" rx="8" fill="#0A0A0A" />
-          <path
-            d="M13.0004 22.0001V22.7501C13.0004 23.5458 13.3164 24.3088 13.8791 24.8714C14.4416 25.434 15.2047 25.7501 16.0004 25.7501C16.796 25.7501 17.5591 25.434 18.1217 24.8714C18.6843 24.3088 19.0004 23.5458 19.0004 22.7501V22.0001M9.26904 13.7501C9.26779 12.861 9.44246 11.9803 9.783 11.159C10.1235 10.3377 10.6232 9.5918 11.2532 8.96438C11.8832 8.33697 12.6312 7.8404 13.454 7.50329C14.2767 7.16617 15.158 6.99515 16.0472 7.0001C19.7597 7.02823 22.7315 10.1126 22.7315 13.8345V14.5001C22.7315 17.8563 23.4347 19.8063 24.0534 20.8751C24.1191 20.9889 24.1538 21.118 24.1539 21.2494C24.154 21.3809 24.1196 21.51 24.0541 21.624C23.9885 21.7379 23.8943 21.8326 23.7806 21.8986C23.6669 21.9646 23.5379 21.9996 23.4065 22.0001H8.59404C8.46261 21.9996 8.33361 21.9646 8.21996 21.8986C8.10632 21.8326 8.01201 21.7379 7.9465 21.624C7.88099 21.51 7.84656 21.3809 7.84668 21.2494C7.84679 21.118 7.88145 20.9889 7.94717 20.8751C8.56592 19.8063 9.26904 17.8563 9.26904 14.5001V13.7501Z"
-            stroke="#FF8A2E"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </div>
-    </nav>
-  </body>
+						<!-- notification icon -->
+						<svg
+							width="32"
+							height="32"
+							viewBox="0 0 32 32"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<rect width="32" height="32" rx="8" fill="#0A0A0A" />
+							<path
+								d="M13.0004 22.0001V22.7501C13.0004 23.5458 13.3164 24.3088 13.8791 24.8714C14.4416 25.434 15.2047 25.7501 16.0004 25.7501C16.796 25.7501 17.5591 25.434 18.1217 24.8714C18.6843 24.3088 19.0004 23.5458 19.0004 22.7501V22.0001M9.26904 13.7501C9.26779 12.861 9.44246 11.9803 9.783 11.159C10.1235 10.3377 10.6232 9.5918 11.2532 8.96438C11.8832 8.33697 12.6312 7.8404 13.454 7.50329C14.2767 7.16617 15.158 6.99515 16.0472 7.0001C19.7597 7.02823 22.7315 10.1126 22.7315 13.8345V14.5001C22.7315 17.8563 23.4347 19.8063 24.0534 20.8751C24.1191 20.9889 24.1538 21.118 24.1539 21.2494C24.154 21.3809 24.1196 21.51 24.0541 21.624C23.9885 21.7379 23.8943 21.8326 23.7806 21.8986C23.6669 21.9646 23.5379 21.9996 23.4065 22.0001H8.59404C8.46261 21.9996 8.33361 21.9646 8.21996 21.8986C8.10632 21.8326 8.01201 21.7379 7.9465 21.624C7.88099 21.51 7.84656 21.3809 7.84668 21.2494C7.84679 21.118 7.88145 20.9889 7.94717 20.8751C8.56592 19.8063 9.26904 17.8563 9.26904 14.5001V13.7501Z"
+								stroke="#FF8A2E"
+								stroke-width="3"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+					</div>
+
+					<div class="profile-image">
+						<img src="./images/person.jpg" alt="profile-image" />
+					</div>
+				</div>
+			</nav>
+			<div class="content-container">
+				<div class="sidebar"></div>
+			</div>
+		</div>
+	</body>
 </html>
