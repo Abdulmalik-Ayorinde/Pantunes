@@ -90,4 +90,50 @@ input[type='search']::placeholder {
 		var(--gray) 100%
 	);
 	height: 100%;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.sidebar-item {
+	display: flex;
+	width: 248px;
+	height: 51px;
+	color: var(--pure-white);
+	border-radius: 0px 8px 8px 0px;
+	gap: 16px;
+}
+
+#active-sidebar-item {
+	background-color: var(--deep-gray);
+	color: var(--orange);
+}
+
+.sidebar-link {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	color: inherit;
+}
+
+#active-icon {
+	background-color: var(--orange);
+}
+
+.item-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	background-color: var(--gray);
+	width: 32px;
+	height: 32px;
+}
+
+.item-text {
+	padding: 16px 16px 16px 24px;
 }
