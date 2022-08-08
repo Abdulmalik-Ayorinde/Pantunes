@@ -77,6 +77,7 @@ input[type='search']::placeholder {
 }
 
 .content-container {
+	display: flex;
 	height: 100%;
 }
 
@@ -136,4 +137,153 @@ input[type='search']::placeholder {
 
 .item-text {
 	padding: 16px 16px 16px 24px;
+}
+
+.main-content {
+	padding: 56px 64px 38px 64px;
+}
+
+.ads-container {
+	background-image: url('../images/Ads.png');
+	width: 70rem;
+	height: 22rem;
+	background-position: center;
+	background-size: cover;
+	border-radius: 8px;
+}
+
+.section-header {
+	color: var(--pure-white);
+	font-weight: 700;
+	font-size: 2rem;
+	margin-top: 32px;
+}
+
+.featured-albums {
+	display: flex;
+	width: 70rem;
+	overflow-y: hidden;
+	/* overflow-x: hidden; */
+	overflow-x: scroll;
+}
+
+.albums {
+	display: flex;
+	background-color: var(--gray);
+	align-items: center;
+	color: var(--pure-white);
+	min-width: 416px;
+	height: 152px;
+	border-radius: 8px;
+	margin-right: 24px;
+}
+
+.album-art {
+	width: 152px;
+	height: 152px;
+	background-image: url('../images/featured/art1.png');
+	border-radius: 8px 0 0 8px;
+}
+
+.album-description {
+	padding: 26px 16px;
+}
+
+.album-title {
+	font-weight: 600;
+	font-size: 34px;
+}
+
+.album-artise {
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 4px;
+}
+
+.album-genre {
+	padding: 8px;
+	width: 71px;
+	height: 32px;
+	background-color: var(--orange);
+	border-radius: 16px;
+	font-weight: 500;
+	font-size: 12px;
+	color: var(--deep-gray);
+	margin-top: 16px;
+}
+
+.player {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--gray);
+	padding: 24px 72px;
+	height: 132px;
+}
+
+.track-controls {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.track-info {
+	display: flex;
+	align-items: center;
+	color: var(--pure-white);
+}
+
+.track-art {
+	background-image: url('../images/trackArt.png');
+	width: 76px;
+	height: 76px;
+	border-radius: 4px;
+}
+
+.track-description {
+	padding: 15.5px 16px;
+}
+
+.track-title {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.track-artise {
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.controls-icon {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.icon-container {
+	border-radius: 8px;
+	background-color: var(--deep-gray);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+}
+
+.progress-bar {
+	width: 600px;
+}
+
+.progress-bar progress {
+	width: 100%;
+	/* background-color: aqua; */
+}
+
+.media-time {
+	display: flex;
+	justify-content: space-between;
+}
+
+.track-actions {
+	display: flex;
 }
