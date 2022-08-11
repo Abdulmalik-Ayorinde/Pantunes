@@ -4,9 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-		<title>Home</title>
-
+		<title>Playlist Track</title>
+		<link rel="stylesheet" href="./styles/navbar.css" />
+		<link rel="stylesheet" href="./styles/sidebar.css" />
+		<link rel="stylesheet" href="./styles/player.css" />
+		<link rel="stylesheet" href="./styles/layout.css" />
+		<link rel="stylesheet" href="./styles/track.css" />
 		<link rel="stylesheet" href="./styles/home.css" />
+		<link rel="stylesheet" href="./styles/playlist-track.css" />
 	</head>
 	<body>
 		<div class="container">
@@ -63,9 +68,9 @@
 			</nav>
 			<div class="content-container">
 				<div class="sidebar">
-					<div class="sidebar-item" id="active-sidebar-item">
-						<a class="sidebar-link" href="#">
-							<div class="item-icon" id="active-icon">
+					<div class="sidebar-item">
+						<a class="sidebar-link" href="./home.html">
+							<div class="item-icon">
 								<svg
 									width="24"
 									height="25"
@@ -114,9 +119,9 @@
 							<div class="item-text">All Tracks</div>
 						</a>
 					</div>
-					<div class="sidebar-item">
+					<div class="sidebar-item" id="active-sidebar-item">
 						<a class="sidebar-link" href="./playlist.html">
-							<div class="item-icon">
+							<div class="item-icon" id="active-icon">
 								<svg
 									width="24"
 									height="25"
@@ -189,54 +194,31 @@
 					</div>
 				</div>
 				<div class="main-content">
-					<div class="ads-container"></div>
-					<div class="featured-section">
-						<p class="section-header">Featured Album</p>
-						<div class="featured-albums">
-							<div class="albums">
-								<div class="album-art"></div>
-								<div class="album-description">
-									<p class="album-title">Twice As Tall</p>
-									<p class="album-artiste">Burna Boy</p>
-									<p class="album-genre">Afro beat</p>
-								</div>
-							</div>
-							<div class="albums">
-								<div class="album-art"></div>
-								<div class="album-description">
-									<p class="album-title">Twice As Tall</p>
-									<p class="album-artiste">Burna Boy</p>
-									<p class="album-genre">Afro beat</p>
-								</div>
-							</div>
-							<div class="albums">
-								<div class="album-art"></div>
-								<div class="album-description">
-									<p class="album-title">Twice As Tall</p>
-									<p class="album-artiste">Burna Boy</p>
-									<p class="album-genre">Afro beat</p>
-								</div>
-							</div>
-							<div class="albums">
-								<div class="album-art"></div>
-								<div class="album-description">
-									<p class="album-title">Twice As Tall</p>
-									<p class="album-artiste">Burna Boy</p>
-									<p class="album-genre">Afro beat</p>
-								</div>
-							</div>
-							<div class="albums">
-								<div class="album-art"></div>
-								<div class="album-description">
-									<p class="album-title">Twice As Tall</p>
-									<p class="album-artiste">Burna Boy</p>
-									<p class="album-genre">Afro beat</p>
-								</div>
-							</div>
+					<div class="page-title">
+						<div class="navigation-container">
+							<svg
+								width="32"
+								height="32"
+								viewBox="0 0 32 32"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M4 16.0013H28M13.3333 25.3346L4 16.0013L13.3333 25.3346ZM4 16.0013L13.3333 6.66797L4 16.0013Z"
+									stroke="white"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
 						</div>
+						<p class="title-text">A Product Story</p>
 					</div>
+					<div class="cover-container">
+						<img src="./images/playlist/playlist-image-1.png" />
+					</div>
+
 					<section class="track-section">
-						<p class="track-header">Playing Now</p>
 						<div class="track-list-container">
 							<div class="track-list">
 								<div class="track-icon">

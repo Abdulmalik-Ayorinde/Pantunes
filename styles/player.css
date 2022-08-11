@@ -1,0 +1,79 @@
+.player {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--gray);
+	padding: 24px 72px;
+	height: 132px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	border-top: 1px solid #6f6f6f;
+}
+
+.track-controls {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.track-info {
+	display: flex;
+	align-items: center;
+	color: var(--pure-white);
+}
+
+.track-art {
+	background-image: url('../images/trackArt.png');
+	width: 76px;
+	height: 76px;
+	border-radius: 4px;
+}
+
+.track-description {
+	padding: 15.5px 16px;
+}
+
+.track-title {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.track-artise {
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.controls-icon {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.icon-container {
+	border-radius: 8px;
+	background-color: var(--deep-gray);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+}
+
+.progress-bar {
+	width: 600px;
+}
+
+.progress-bar progress {
+	width: 100%;
+	/* background-color: aqua; */
+}
+
+.media-time {
+	display: flex;
+	justify-content: space-between;
+}
+
+.track-actions {
+	display: flex;
+}

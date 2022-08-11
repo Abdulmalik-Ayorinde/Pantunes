@@ -1,0 +1,56 @@
+.track-section {
+	margin-top: 32px;
+}
+
+.track-header {
+	color: var(--pure-white);
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 8px;
+}
+
+.track-list-container {
+	width: 70rem;
+	color: var(--pure-white);
+}
+
+.track-list {
+	display: flex;
+	background-color: var(--gray);
+	border-radius: 8px;
+	padding: 16px;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 4px;
+	gap: 24px;
+}
+
+.track-icon {
+	border-radius: 8px;
+	background-color: var(--deep-gray);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+}
+
+.track-list-title,
+.track-list-album,
+.track-list-artise,
+.track-list-duration {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.track-list-title,
+.track-list-album,
+.track-list-artise {
+	width: 317.33px;
+}
+
+.track-list-duration,
+.track-list-visual {
+	width: 80px;
+}

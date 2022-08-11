@@ -1,0 +1,40 @@
+@import url('allcss.css');
+
+.page-title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 32px;
+}
+
+.navigation-container {
+	background-color: var(--gray);
+	width: 48px;
+	height: 48px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 24px;
+}
+
+.title-text {
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--pure-white);
+}
+
+.cover-container {
+	background-image: url('../images/Cover.png');
+	height: 472px;
+	width: 70rem;
+	border-radius: 8px;
+	padding: 68px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cover-container img {
+	width: 336px;
+	height: 336px;
+	border-radius: 8px;
+}

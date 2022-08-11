@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: space-between;
+}
+
+.content-container {
+	display: flex;
+	height: 100%;
+	margin-top: 88px;
+}
+
+.main-content {
+	padding: 56px 64px 38px 64px;
+	margin-left: 304px;
+	height: 1200px;
+}
